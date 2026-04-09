@@ -2,7 +2,7 @@
 Type=Application
 Name=ITR 2025
 GenericName=Imposto sobre a Propriedade Territorial Rural 2025
-Comment=Declare seu imposto dos seus imóveis rurais (Ano-calendário 2024)
+Comment=Declare seu imposto dos seus imóveis rurais (Ano-calendário 2025)
 Icon=br.gov.fazenda.receita.itr2025
 Exec=exec.sh
 Categories=Office;Network;
