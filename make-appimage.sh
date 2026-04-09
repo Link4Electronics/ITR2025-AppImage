@@ -10,7 +10,12 @@ export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 
 # Deploy dependencies
-quick-sharun /PATH/TO/BINARY_AND_LIBRARIES_HERE
+quick-sharun ./AppDir/bin/* \
+    /usr/lib/jvm/java*/bin \
+    /usr/lib/jvm/java*/conf \
+    /usr/lib/jvm/java*/legal \
+    /usr/lib/jvm/java*/lib \
+    /usr/bin/openssl
 
 # Additional changes can be done in between here
 
